@@ -10,4 +10,6 @@ Rails.application.routes.draw do
    get "/help" , to:"help#help"
 
    get "/contact" , to:"contact#contact"
+
+   get "/details" , to:"details#details"
 end
