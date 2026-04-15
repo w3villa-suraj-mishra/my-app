@@ -12,4 +12,6 @@ Rails.application.routes.draw do
    get "/contact", to: "contact#contact"
 
    get "/details", to: "details#details"
+
+   get "/signup" , to: "signup#signup"
 end
