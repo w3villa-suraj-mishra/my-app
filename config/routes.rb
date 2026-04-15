@@ -1,15 +1,15 @@
 Rails.application.routes.draw do
-   get "about" ,   to:"about#index"
+   get "about",   to: "about#index"
 
-   get "home" , to:"home#display"
+   get "home", to: "home#display"
 
-   get "/" , to:"main#home"
+   get "/", to: "main#home"
 
-   get "/login" , to:"auth#login"
+   get "/login", to: "auth#login"
 
-   get "/help" , to:"help#help"
+   get "/help", to: "help#help"
 
-   get "/contact" , to:"contact#contact"
+   get "/contact", to: "contact#contact"
 
-   get "/details" , to:"details#details"
+   get "/details", to: "details#details"
 end
