@@ -13,5 +13,5 @@ Rails.application.routes.draw do
 
    get "/details", to: "details#details"
 
-   get "/signup" , to: "signup#signup"
+   get "/signup", to: "signup#signup"
 end
